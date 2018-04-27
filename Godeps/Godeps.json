@@ -1,0 +1,65 @@
+{
+	"ImportPath": "imohe/swa",
+	"GoVersion": "go1.10",
+	"GodepVersion": "v80",
+	"Packages": [
+		"./..."
+	],
+	"Deps": [
+		{
+			"ImportPath": "github.com/PuerkitoBio/goquery",
+			"Comment": "v1.4.0-2-gea1bc64",
+			"Rev": "ea1bc64a63088ac2bbf1a2edcae38413794a7710"
+		},
+		{
+			"ImportPath": "github.com/andybalholm/cascadia",
+			"Comment": "v1.0.0",
+			"Rev": "901648c87902174f774fac311d7f176f8647bdaa"
+		},
+		{
+			"ImportPath": "github.com/clbanning/mxj",
+			"Comment": "v1.8-3-g471507b",
+			"Rev": "471507b9c9c73053dddca891addea8fa653cacf0"
+		},
+		{
+			"ImportPath": "github.com/fsnotify/fsnotify",
+			"Comment": "v1.4.7",
+			"Rev": "c2828203cd70a50dcccfb2761f8b1f8ceef9a8e9"
+		},
+		{
+			"ImportPath": "github.com/lxn/walk",
+			"Comment": "release-916-g7749b6b",
+			"Rev": "7749b6b5d41171c1485b9014ae8399479b9a12c2"
+		},
+		{
+			"ImportPath": "github.com/lxn/walk/declarative",
+			"Comment": "release-916-g7749b6b",
+			"Rev": "7749b6b5d41171c1485b9014ae8399479b9a12c2"
+		},
+		{
+			"ImportPath": "github.com/lxn/win",
+			"Rev": "4186f96d2a55e408edcc2b65499118ead6667a32"
+		},
+		{
+			"ImportPath": "golang.org/x/net/html",
+			"Rev": "5f9ae10d9af5b1c89ae6904293b14b064d4ada23"
+		},
+		{
+			"ImportPath": "golang.org/x/net/html/atom",
+			"Rev": "5f9ae10d9af5b1c89ae6904293b14b064d4ada23"
+		},
+		{
+			"ImportPath": "golang.org/x/net/publicsuffix",
+			"Rev": "5f9ae10d9af5b1c89ae6904293b14b064d4ada23"
+		},
+		{
+			"ImportPath": "golang.org/x/sys/unix",
+			"Rev": "79b0c6888797020a994db17c8510466c72fe75d9"
+		},
+		{
+			"ImportPath": "gopkg.in/Knetic/govaluate.v3",
+			"Comment": "v3.0.0",
+			"Rev": "d216395917cc49052c7c7094cf57f09657ca08a8"
+		}
+	]
+}

@@ -1,0 +1,37 @@
+#include "winver.h"
+
+1               24        "swa.exe.manifest"
+
+IDI_ICON1 ICON      "swa.ico"
+1               ICON      "swa.ico"
+2               ICON      "settings.ico"
+3               BITMAP   "start.bmp"
+4               BITMAP   "stop.bmp"
+5               BITMAP   "setting.bmp"
+6               BITMAP   "about.bmp"
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION    1,0,0,0
+ PRODUCTVERSION 1,0,0,0
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "08040000"
+        BEGIN
+            VALUE "Comments", "数通天下智能快捷报关远程数据传输助理"
+            VALUE "CompanyName", "摩诃科技无锡有限公司"
+            VALUE "FileDescription", "数通天下智能快捷报关远程数据传输助理"
+            VALUE "FileVersion", "1.0.0.0"
+            VALUE "InternalName", "swa"
+            VALUE "LegalCopyright", "Copyright(c) All Rights Reserved"
+            VALUE "LegalTrademarks", "数通天下"
+            VALUE "OriginalFilename", "swa"
+            VALUE "ProductName", "数据通天下 - 快捷报关数据传输助理"
+            VALUE "ProductVersion", "1.0.0.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x0804, 0x0
+    END
+END
